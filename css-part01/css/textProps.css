@@ -1,0 +1,116 @@
+/* 
+text-align :to make in  -> center, left/start, right/end and justify
+based on the parent element.
+
+font-weight : to make it bold 
+-> normal(400), bold(700), bolder lighter and 100(100-900)
+-> font-weight : bolder or font-weight: lighter we use in terms of parent's font weight
+
+text-decoration : to maker it underlined 
+-> underlined , overline and line-through
+-> text-decoration-color : 
+
+line-height : line gap between two lines 
+-> normal, 2.5(normal * 2.5), px, etc.
+
+letter-spacing : space between two charater or letter
+-> normal, px
+
+font-size -> font size 
+
+font-family -> arial, etc..
+*/
+
+
+/* Units in fontSize 
+Absolute: px(96 px = 1 inch), pt(72 pt = 1 inch) ,pc(12 pc=1 inch), cm ,mm in 
+Relative : % , em, rem, ch, vh vh + many more */ 
+
+
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  text-decoration: double black line-through;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+  text-align: right;
+  text-decoration: overline;
+  text-decoration-color: brown;
+  letter-spacing: 10px;
+}
+
+h3 {
+  text-align: start;
+  font-weight: lighter;
+  text-decoration: brown dotted overline;
+}
+
+h4 {
+  text-decoration: wavy underline;
+  text-decoration-color: blueviolet;
+}
+
+p {
+  text-align: left;
+  font-weight: bolder;
+  text-decoration: line-through;
+  text-decoration-color: brown;
+}
+
+article {
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 2;
+  text-decoration: brown underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+  text-decoration: double brown overline;
+  line-height: 2.5;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Units  
+em related to parents
+Consider a p tag nested in an article element with a font size of 18px:
+.article {
+  font-size: 18px;
+}
+p {
+  font-size: 2em; -> sets font size = 36px 
+}
+
+
+They reference the root element 
+typically the HTML element itself. 
+Most browsers set the default font size to 16px.
+However, you can change this. For instance, to change the font size to 14px,
+you would add the following to your stylesheet:
+html {
+  font-size: 14px;
+}
+For example, assuming the default font size of the root object is 16px,
+you would style a paragraph with a 12px font size using 0.75rem because 12 ÷ 16 = 0.75:
+p {
+  font-size: 0.75rem;
+}
+
+The full form of VW is viewport width. It works like the percentage unit.
+Specifying 10vw is equivalent to occupying 10% of entire visible screen width.
+
+The full form of VH is viewport height.
+It works like the percentage unit as well. 
+Specifying 10vh is equivalent to occupying 10% of entire visible screen height.
+
+*/
+
