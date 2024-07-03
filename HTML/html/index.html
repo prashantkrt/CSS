@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Learning</title>
+</head>
+
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Headning6</h6>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, at voluptate ipsum quaerat saepe quod, quam
+        doloremque
+        <br> laudantium expedita consequuntur fuga nulla sed commodi vitae corporis? Error nesciunt cumque
+        tempora!
+        <hr>
+    </p>
+    <image src="/HTML/images/code.png" height="300px" alt="/HTML/images/rocket.png" />
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdraOP0lSWd9prQnS7x7Rk3Gm18vMZltYpw&s">
+
+    <br>
+    <video src="/HTML/assets/dummyVideo.mp4" height="250px" alt="dummy video not working" autoplay controls loop
+        muted></video>
+
+    <br>
+    <a href="https://www.youtube.com">Link</a>
+    <br>
+    <b>Using Bold</b>
+    <i>Using Italic</i>
+    <u>Using Underlined</u>
+    <s>Using Strike</s>
+
+    <pre>
+          I can write anything inside it
+          It will be preserved with my writing format
+
+          adding some   space 
+          adding line break 
+          All the data added will be preserved
+    </pre>
+
+    <big>This is a Big tag</big>
+    <small>This is a small tag</small>
+
+    <big>CH4 + O2 => H2O + CO2</big>
+    <pre>
+        H<sub>2</sub>O + CO<sub>2</sub>
+    </pre>
+
+    <pre>
+        (a+b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab
+    </pre>
+
+    <ol type="I">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Guava</li>
+        <li>PineApple</li>
+    </ol>
+
+    <ul>
+        <li>Student</li>
+        <li>Employee</li>
+        <li>Business Man</li>
+    </ul>
+
+    <table border="1">
+        <caption>This is Student Table</caption>
+        <tr>
+            <th colspan="3">My Student Table</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>21</td>
+            <td>shsh@gsgs</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>21</td>
+            <td>pa@gsgs</td>
+        </tr>
+        <tr>
+            <td>Mohan</td>
+            <td>23</td>
+            <td>ds@gsgs</td>
+        </tr>
+        <tr>
+            <td colspan="3">Mohan</td>
+        </tr>
+    </table>
+    <p>Charater Entity Reference Tags below</p>
+
+    <form action="/submit.php" method="post">
+        Email : <input type="text" placeholder="Email" name="name" required>
+        <br>
+        password : <input type="password" placeholder="password" name="password" required>
+        <br>
+        <!-- better way -->
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" placeholder="Username">
+        <br>
+        <label for="date">Enter Date :</label>
+        <input type="date" id="date" name="userDate">
+        <br>
+        <label for="file">Upload Files :</label>
+        <input type="file" name="userFilePath" id="file">
+        <br>
+        <label for="color">Choose color :</label>
+        <input type="color" id="color" name="userColor">
+        <br>
+        <label for="range">Choose Range</label>
+        <input type="range" name="userRange" id="range" step="1" min="1" max="10">
+        <br>
+        <input type="button" name="" value="Button click me!!" id="">
+        <br>
+        <label for="gender">Select Gender : </label>
+        <br>
+        <!--name should be same for single select for the radio button  -->
+        <label for="male">male</label>
+        <input type="radio" name="userGender" id="male" value="male">
+        <label for="female">female</label>
+        <input type="radio" name="userGender" id="female" value="female">
+        <label for="other">other</label>
+        <input type="radio" name="userGender" id="other" value="other">
+        <br>
+        <label for="apple">Apple</label>
+        <input type="checkbox" name="fruit" id="apple">
+        <label for="banana">Banana</label>
+        <input type="checkbox" name="fruit" id="banana">
+        <label for="mango">Mango</label>
+        <input type="checkbox" name="fruit" id="mango">
+
+        <br>
+        <label for="fruits">Select Fruit</label>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="orange" selected>Orange</option>
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+        </select>
+        <br>
+        <label for="area">Fill the feedback</label>
+        <textarea rows="4" cols="10" name="data" id="area">Default Text is here !!!</textarea>
+        <br>
+        <input type="submit">
+    </form>
+
+    <pre>
+        <big>exmaples:  block elements : <b> div, p, h1 to h6, and ul, table ,section, ol, form,footer, div etc..</b></big>
+        <big>examples: inline elements : <b> span, a, strong, img, em, button, sup, sub , select, label, br, big, small, textArea, pre etc..</b></big>
+    </pre>
+
+    <iframe src="https://programiz.pro" width="300" height="200" frameborder="0"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=mRlam1Xe0rieSeR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>
