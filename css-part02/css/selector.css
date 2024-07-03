@@ -1,3 +1,133 @@
-*{
-    background-color: black;
+* {
+  /* Universal Seletor for everything in the document */
+  /* Will be refected on all over the document */
+  font-family: "Courier New", Courier, monospace;
+  background-color: aqua;
+}
+
+h1 {
+  /* Element selector */
+  color: rgb(245, 42, 55);
+}
+
+h1,h2 {
+  /* multiple element selectors */
+  color: rgb(245, 42, 55);
+}
+
+#login {
+  /* id selector */
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 10px;
+  width: 200px;
+  background-color: black;
+  color: white;
+}
+
+#signup {
+  /* id selector */
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 10px;
+  width: 200px;
+  background-color: black;
+  color: tomato;
+}
+.upvote {
+  /* class selector */
+  background-color: green;
+}
+
+.answer {
+  /* class selector */
+  background-color: blueviolet;
+}
+.box {
+  /* class selector */
+  background-color: brown;
+  height: 100px;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+nav a {
+  /* descendant selector */
+  /* Inside nav targeting all the anchor tags */
+  color: black;
+  text-decoration: none;
+}
+
+main p {
+  /* descendant selector */
+  /* Inside main targeting all the paragraph tags */
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+}
+
+main p a {
+  /* descendant selector */
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+p + h3 {
+  /* Adjacent sibling combinator */
+  /* heading h3 that comes immediately after any paragraph */
+  /* targets the h3 which immediately comes after para */
+  /* 
+     equal level: 
+     <p></p>
+     <h3></h3>
+   */
+  text-decoration: underline black;
+}
+
+.upvote + button {
+  /* Adjacent sibling combinator */
+  /* class level immdiate next button */
+  text-decoration: thistle underline;
+}
+
+span > button {
+  /* child selector */
+  /* It should be direct childres */
+  /* It won't work for child of child it will only work for direct child of the parent */
+}
+
+.container > div {
+  /* child selector */
+  text-align: center;
+  align-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* input[attr="value"]{
+  attribute selector
+} */
+
+input[type="text"] {
+  /* attribute selector */
+  color: rgb(132, 0, 255);
+}
+
+input[type="password"] {
+  /* attribute selector */
+  color: rgb(226, 43, 43);
+}
+
+input[type]
+{
+  background-color: rgb(255, 0, 174);
 }
