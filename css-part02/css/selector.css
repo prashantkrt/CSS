@@ -199,6 +199,29 @@ input[type="checkbox"]:checked+label{
   background-color: blue;
 }
 
+/* pseudo element based on the specfic part of the selected element */
+
+/*
+   ::first-letter
+   ::first-line
+   ::selection
+*/
+
+
+h1::first-letter{
+  color: chartreuse;
+}
+
+.test::first-line{
+  color: blueviolet;
+}
+
+
+.test::selection{
+  /* while selecting the lines */
+  color: brown;
+  background-color: black;
+}
 
 
 
