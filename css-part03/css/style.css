@@ -1,0 +1,66 @@
+div{
+    height: 300px;
+    width: 300px;
+
+    border-width: 2px;
+    border-style: solid;
+    /* dashed , dotted, solid  etc*/
+    border-color: black;  
+
+    /* border shorthand 
+    width|style|color */
+    border: 2px solid black; 
+
+    /* border-radius */
+    border-radius: 10px;
+    
+}
+
+/* Border Properties :
+ - border-width
+ - border-style
+ - border-color 
+ */
+
+ h1{
+    border-color: brown;
+    border-width: 2px;
+    border-style: dashed;
+ }
+
+ /*    
+    border sides:
+    - border-top 
+    - border-bottom
+    - border-left
+    - border-right  
+    - border-left-color
+    - boder-right-width
+    - border-top-style
+*/
+
+
+/* padding property */
+
+div{
+    /* all four sides */
+    padding: 10x;
+
+    /* padding-top: ;
+    padding-left: ;
+    padding-bottom: ;
+    padding-right: ; */
+
+    /* clock wise top right bottm left */
+    padding: 1px 2px 3px 4px;
+
+    /* top & bottm | right & left */
+    padding: 1px 2px;
+
+
+    /* top | right & left| bottom */
+    padding: 1px 2px 3px
+}
+
+
+
