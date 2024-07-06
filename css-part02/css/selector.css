@@ -1,8 +1,10 @@
+/* Id property changes ahs the higest priority */
+
 * {
   /* Universal Seletor for everything in the document */
   /* Will be refected on all over the document */
   font-family: "Courier New", Courier, monospace;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 h1 {
@@ -131,3 +133,74 @@ input[type]
 {
   background-color: rgb(255, 0, 174);
 }
+
+
+/* pseudo class */
+
+/* :hover when we hover over */
+button:hover{
+  background-color: palevioletred;
+  color: white;
+  opacity: 0.8;
+}
+
+#login:hover{
+  background-color: rgb(55, 0, 255);
+}
+
+#signup:hover{
+  background-color: blueviolet;
+}
+
+/* :active when we click */
+button:active{
+  background-color: burlywood;
+}
+
+#login:active{
+  background-color: rgb(163, 157, 184);
+}
+
+#signup:active{
+  background-color: rgb(163, 139, 185);
+}
+
+p:active{
+  font-weight: bold;
+  color: blueviolet;
+}
+
+/* :checked used with radio or check boxes */
+input[type="radio"]:checked+label{
+  color: brown;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+
+input[type="checkbox"]:checked+label{
+  color: brown;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+/* nth-of-type */
+
+.post:nth-of-type(2n){
+  /* every 2nd element target */
+}
+
+.post:nth-of-type(2){
+  background-color: aquamarine;
+}
+
+.post:nth-of-type(1)
+{
+  background-color: blue;
+}
+
+
+
+
+
+
