@@ -1,0 +1,38 @@
+h3{
+    background-color: aqua;
+}
+
+h3{
+    /* will override  */
+    /* Suppose we have 2 css file the file which we added in second will be having the property */
+    /* always last/end file or selector props same */
+    background-color: blue;
+}
+
+/* Selector Specificity */
+/* 
+ priority:-
+ - id  
+ - class, attribute & pseudo-class
+ - element & pseudo-element
+
+ id > class > element
+
+ if specifity is same then last property will be used
+
+
+Inline styles - Example: <h1 style="color: pink;">
+IDs - Example: #navbar
+Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+Elements and pseudo-elements - Example: h1, ::before
+
+
+higer specificity will get more prefernece
+(0,0,0) 
+id (1,0,0)  > 
+class (0,1,0) > 
+element(0,0,1)
+
+specificity also depends on the number of selector used it will have higher specificity
+
+*/

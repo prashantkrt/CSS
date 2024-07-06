@@ -40,6 +40,7 @@ h1,h2 {
   background-color: black;
   color: tomato;
 }
+
 .upvote {
   /* class selector */
   background-color: green;
@@ -49,6 +50,7 @@ h1,h2 {
   /* class selector */
   background-color: blueviolet;
 }
+
 .box {
   /* class selector */
   background-color: brown;
