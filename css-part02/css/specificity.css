@@ -9,6 +9,11 @@ h3{
     background-color: blue;
 }
 
+h1{
+    background-color: aqua !important;
+    /*  highest priority it can't be changed by other css property */
+}
+
 /* Selector Specificity */
 /* 
  priority:-

@@ -1,0 +1,9 @@
+div{
+    /* color will be inherited to the all the child elements also */
+    /* if the child has there own property then it will not inherited */
+    background-color: aqua;
+}
+
+p{
+    background-color: beige;
+}
