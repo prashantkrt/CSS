@@ -1,0 +1,33 @@
+.container{
+    height: 600px;
+    width: 840px;
+    background-color: rgb(246, 246, 134);
+    /* by default column */
+    display: grid;
+
+    /* grid model */
+    /*
+     grid lines:-  column lines ,row lines
+     grid cell 
+     grid track     
+    */
+
+    /* grid-template-rows: 110px 110px 110px 110px;
+
+    grid-template-columns: 210px 210px 210px 210px;
+
+    grid-template-columns: auto auto auto auto; */
+
+
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: repeat(2 1fr);
+}
+
+.box{
+    /* height: 100px;
+    width: 200px; */
+    background-color: rgb(177, 132, 218);
+    border: 2px solid black;
+    text-align: center;
+}
