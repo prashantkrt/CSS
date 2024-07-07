@@ -1,0 +1,52 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 2px auto;
+    padding: 2px;
+    text-align: center;   
+}
+
+.box:nth-of-type(2n+1){
+    background-color: aqua;
+}
+
+.box:nth-of-type(2n+2){
+    background-color: aquamarine;
+}
+
+
+#box1{
+    /* by default will be static no change */
+    /* no effect */
+    position: static;
+    top: 10px;
+    bottom: 10px;
+    /* top, left , bottom and right */
+
+}
+
+#box2{
+    /* relative to it's original position */
+    /* if any other realtive close with the position value other than static */
+    position: relative;
+    top: 20px;
+    left: 10px;    
+}
+
+#box3{
+    /* always fixed like for footer */
+    /* it is relative to the initial containing block i.e to main window */
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}
+
+#box4{
+    /* absolute postion for the main window */
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+}
