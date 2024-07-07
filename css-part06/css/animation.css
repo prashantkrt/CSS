@@ -1,0 +1,50 @@
+.box {
+  background-color: aqua;
+  box-sizing: border-box;
+  height: 200px;
+  width: 300px;
+
+  /*
+   animation-name
+   animation-duration
+   animation-timing-function
+   animation-iteration-count
+   animation-direction
+   animation-delay
+*/
+
+  animation-name: fontAnimation;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /*  alternate,  reverse ,  alternate-reverse , normal*/
+
+  /* animation: myname duration timing-funtion delay count direction */
+}
+
+@keyframes fontAnimation {
+  /* from means 0% to means 100% */
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 40px;
+  }
+}
+
+@keyframes widthAnimation {
+  0% {
+    width: 10px;
+    background-color: blueviolet;
+  }
+  50% {
+    background-color: black;
+    color: white;
+  }
+  100% {
+    width: 100px;
+    background-color: aquamarine;
+  }
+}
