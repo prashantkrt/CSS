@@ -1,0 +1,10 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,255,0.6);
+    /* background-color: #54460fa1; */
+    /* for hexa at last a1 is alpha value #54460fa1 00-ff */
+
+    opacity: 1;
+    /* it for entire element  */
+}

@@ -1,0 +1,54 @@
+/* Transtion between two states */
+
+ /* Transition Shorthand 
+      property name | duration | timing-function | delay      
+ */
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;   
+    margin: 0 auto 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#box1{
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+#box1:hover{
+    background-color: brown;
+    border-radius: 50%;
+}
+
+
+#box2{
+
+    /* 
+    transition-property: margin-top;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    */
+   
+    /* transition: margin-top 1s linear 0.2s; */
+    transition: margin-top 1s ease-in-out 0.2s;
+
+    transition: margin-top 1s ease 0.2s;
+    /* go slow come fast */
+    transition: margin-top 1s ease-in 0.2s;
+    /* go fast come late */
+    transition: margin-top 1s ease-out 0.2s; 
+     /* go fast come fast */
+    transition: margin-top 1s ease 0.2s;
+    /* go slow and come slow */
+    transition: margin-top 1s ease-in-out 0.2s;    
+}
+
+#box2:hover{
+    margin-top:400px;  
+    background-color: brown; 
+}
+
