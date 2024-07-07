@@ -1,0 +1,21 @@
+div{
+    height: 500px;
+    width: 500px;
+    margin: 10px;   
+    background-image: url("/html/images/nature.jpg");
+   
+
+    /* backgroud-size: 
+     cover / contain / auto
+    */
+
+    background-size: contain;
+    /* repeats */
+
+    background-size: cover;
+    /* will cut/crop to fit in  mostly we use this*/
+
+    background-image: auto;
+    /* scale it to make it fit */
+
+}
