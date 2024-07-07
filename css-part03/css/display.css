@@ -1,0 +1,46 @@
+h1{
+    display: inline;
+    background-color: rgb(11, 246, 167);
+}
+
+/* Inline elements has issues related to setting of height, width padding margin etc.
+
+- Only use as much horizontal spaceas required by the content.
+  Do not accept width and height CSS properties
+- Margins will work horizontally,but not vertically 
+- Padding works on all sides, but the top and bottom may overlap other elements.
+
+can be solved using display: inline-block 
+*/
+
+span{
+    display: block;
+    background-color: rgb(248, 248, 0);
+    border: 2px solid black;
+}
+
+.mybox{
+    background-color: greenyellow;
+    display: inline-block;
+    width: 500px;
+    height: 500px;    
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    /* gayab kind of hidden but it's space will be removed unlike hidden it will only hide it*/
+    /* display: none; */
+
+    /* display:none (will not leave the space) and visibility:hidden(will leave the space) */
+}
+
+.box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: brown;
+    text-align: center;  
+    margin: 20px;  
+}
+

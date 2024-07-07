@@ -59,7 +59,30 @@ div{
 
 
     /* top | right & left| bottom */
-    padding: 1px 2px 3px
+    padding: 1px 2px 3px;
+
+
+    /* margin : 
+
+      margin-top
+      margin-bottom
+      margin-left
+      margin-right    
+    
+    */
+    margin: 2px;
+
+    /* top & bottm | right & left */
+    margin: 2px 4px ;
+
+
+    /* top | right & left| bottom */
+    margin :2px 3px 4px;
+
+
+    /* clock wise -> top right bottmom left */
+    margin: 3px 2px 5px 10px;
+
 }
 
 
