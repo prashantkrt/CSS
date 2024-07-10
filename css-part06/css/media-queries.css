@@ -1,4 +1,54 @@
-h1{
-    background-color: aqua;
-    border: 2px solid black;
+h1 {
+  background-color: aqua;
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+
+div {
+  color: white;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+
+/* exactly case */
+@media (width: 300px) {
+  h1 {
+    background-color: rgb(24, 102, 102);
+    color: white;
+    width: 200px;
+    width: 100px;
+  }
+  div {
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (min-width: 300px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: brown;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  body {
+    background-color: blanchedalmond;
+  }
+}
+
+@media (orientation: landscape) {
+  div {
+    background-color: chartreuse;
+  }
 }
