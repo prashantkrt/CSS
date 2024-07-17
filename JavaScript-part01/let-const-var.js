@@ -7,6 +7,7 @@ const c =10;
 console.log(c);
 
 
+// old syntax of writing the variables
 var b = 20;
 // you can re declare but it's a bad practice old approachs use let 
 var b = 30;
