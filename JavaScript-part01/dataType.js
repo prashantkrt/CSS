@@ -29,6 +29,7 @@ let data = "a";
 data = "23";
 console.log(data[0]);
 data = "";
+console.log(data.length); // 0 
 console.log(typeof data);
 
 //undefined
