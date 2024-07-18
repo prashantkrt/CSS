@@ -60,3 +60,19 @@ console.log(0===false) //false
 console.log(null==undefined) // true
 console.log(null===undefined)// false
 
+
+//comparison for non numbers
+
+// 'a' -> 97 
+// 'b' -> 98 . . .  so on
+// 'A' -> 65
+// 'B' -> 66 . . . so on
+
+console.log('a'<'A'); // false 97 < 65
+console.log('A'<'a'); // true 65 < 97
+
+
+let char = "a"; 
+console.log(char.charCodeAt(0), "ASCII value for 'a'");
+
+
