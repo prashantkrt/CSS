@@ -14,7 +14,7 @@ age /= 2;
 
 
 //Uninary Operatos
-age++;  //post increment 
+age++;  // post increment 
 age--;  // post decrement
 ++age;  // pre increment
 --age;  // pre decrement
