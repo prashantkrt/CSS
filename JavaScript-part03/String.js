@@ -80,6 +80,7 @@ console.log(lowerString);
 
 {
   let letters = "Hello-World";
-  console.log(letters.charAt(0)); // l
+  console.log(letters[2]); // l
+  console.log(letters.charAt(0)); // H
   console.log(letters.charCodeAt(0)); // ascii value of char at index 0 72
 }
