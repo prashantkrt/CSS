@@ -21,6 +21,19 @@
         tempora!
         <hr>
     </p>
+    <!-- Data List like container -->
+    <dl>
+        <!-- Data Term -->
+        <dt>Data term</dt>
+        <!-- Data Definations -->
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quidem consequatur eligendi.
+            Laudantium obcaecati recusandae pariatur. Eius odio magni inventore culpa fugiat! Blanditiis iure quisquam
+            odit, suscipit reiciendis quaerat? Ipsum.
+        </dd>
+        <dt>Lorem</dt>
+        <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque vitae et mollitia animi, magnam
+            inventore eaque cupiditate veritatis labore maxime.</dd>
+    </dl>
     <image src="/HTML/images/code.png" height="300px" alt="/HTML/images/rocket.png" />
     <br>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdraOP0lSWd9prQnS7x7Rk3Gm18vMZltYpw&s">
@@ -145,15 +158,23 @@
 
         <br>
         <label for="fruits">Select Fruit</label>
-        <select name="fruits" id="fruits">
-            <option value="apple">Apple</option>
-            <option value="orange" selected>Orange</option>
-            <option value="banana">Banana</option>
-            <option value="mango">Mango</option>
+        <select name="fruits" id="fruits" multiple>
+            <optgroup label="Fruits">
+                <option value="apple">Apple</option>
+                <option value="orange" selected>Orange</option>
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+            </optgroup>
+            <optgroup label="Dry Fruits">
+                <option value="walnut">Walnut</option>
+                <option value="Almond">Almond</option>
+                <option value="cashew">Cashew</option>
+                <option value="raisins">Raisin</option>
+            </optgroup>
         </select>
         <br>
         <label for="area">Fill the feedback</label>
-        <textarea rows="4" cols="10"  maxlength="50"  name="data" id="area">Default Text is here !!!</textarea>
+        <textarea rows="4" cols="10" maxlength="50" name="data" id="area">Default Text is here !!!</textarea>
         <br>
         <input type="submit" value="Submit">
     </form>
@@ -164,7 +185,10 @@
     </pre>
 
     <iframe src="https://programiz.pro" width="300" height="200" frameborder="0"></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=mRlam1Xe0rieSeR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=mRlam1Xe0rieSeR6"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 
 </html>
