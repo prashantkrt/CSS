@@ -68,10 +68,18 @@ console.log(lowerString);
   let msg = "ILoveLoveCoding";
 
   let replaceExp = msg.replace("Love", "Hate");
-  console.log(msg);//  ILoveLoveCoding
+  console.log(msg); //  ILoveLoveCoding
   console.log(replaceExp); //IHateLoveCoding
-  
-  let str ="Apple";
+
+  let str = "Apple";
   let repeatedStr = str.repeat(3);
   console.log(repeatedStr); //AppleAppleApple
+}
+
+// 7. charAt
+
+{
+  let letters = "Hello-World";
+  console.log(letters.charAt(0)); // l
+  console.log(letters.charCodeAt(0)); // ascii value of char at index 0 72
 }
