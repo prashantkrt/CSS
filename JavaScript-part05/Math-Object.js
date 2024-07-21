@@ -21,4 +21,4 @@ console.log(Math.abs(-2)); //2
 console.log(Math.pow(2,3)); //8
 console.log(Math.floor(2.333)); //2
 console.log(Math.ceil(2.3333)); //3 
-console.log(Math.random()); // 0.856444
+console.log(Math.random()); // 0.856444 any number between 0(inclusive) to 1(exclusive)
