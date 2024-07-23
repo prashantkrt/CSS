@@ -1,5 +1,5 @@
 /*
-<----Scopes--->
+<----Scopes---->
 -  global 
 -  Function
 -  Block 
