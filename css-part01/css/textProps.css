@@ -9,6 +9,7 @@ font-weight : to make it bold
 text-decoration : to maker it underlined 
 -> underlined , overline and line-through
 -> text-decoration-color : 
+-> text-decoration-style :
 
 line-height : line gap between two lines 
 -> normal, 2.5(normal * 2.5), px, etc.
@@ -19,6 +20,8 @@ letter-spacing : space between two charater or letter
 font-size -> font size 
 
 font-family -> arial, etc..
+
+text-transform: lowercase , capatalize
 */
 
 
