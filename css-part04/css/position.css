@@ -45,7 +45,7 @@
 }
 
 #box4{
-    /* absolute postion for the main window */
+    /* absolute postion for the main window i.e nearest ancestor/parent, until an unless parest should be relative to it's parent*/
     position: absolute;
     top: 10px;
     z-index: 10;
