@@ -28,3 +28,4 @@ window.getAverage();
 
 alert("Hello World");
 window.alert("Hello World");
+
